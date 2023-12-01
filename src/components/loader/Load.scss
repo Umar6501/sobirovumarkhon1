@@ -1,0 +1,35 @@
+.load {
+  .loader-front {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgba(0, 0, 0);
+    z-index: 100;
+    animation: loader1 2s infinite ease-in-out;
+  }
+  .loader-back {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: rgba(110, 110, 110, 0.8);
+    z-index: 2;
+  }
+}
+
+@keyframes loader1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
