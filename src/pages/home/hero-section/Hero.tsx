@@ -2,7 +2,9 @@ import "./Hero.scss";
 const Hero = () => {
   return (
     <section className="hero">
-      <img src="./умарррр.png" alt="" />
+      <div className="img-container">
+        <img src="./умарррр.png" alt="" />
+      </div>
       <div className="name-animation">
         <h1 className="name-content">
           -- Umarkhon Sobirov -- Umarkhon Sobirov -- Umarkhon Sobirov --

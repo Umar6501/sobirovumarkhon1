@@ -277,6 +277,20 @@
         animation: none;
       }
     }
+    .img-container {
+      position: relative;
+      width: 100%;
+      height: 520px;
+      top: -390px;
+      left: 0px;
+      overflow: hidden;
+      z-index: 2;
+      img {
+        width: 525px;
+        height: 100%;
+        position: absolute;
+      }
+    }
     img {
       width: 525px;
       height: 520px;
